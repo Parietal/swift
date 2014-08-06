@@ -25,6 +25,7 @@ class DDClosureButton: UIButton {
     }
     }
     
+    private // MARK: - private
     func buttonClicked(sender: UIButton!) {
         println("call touchUpInsideHandler")
         self.touchUpInsideHandler!(button: self)
